@@ -14,9 +14,12 @@ document.getElementById("container").addEventListener("submit", function(event) 
       
         mensagem.textContent = "Formulário válido! Campo B é maior que Campo A.";
         mensagem.style.color = "black";
+        mensagem.style.marginTop = "8px";
+        
     } else {
       
         mensagem.textContent = "Formulário inválido! Campo B deve ser maior que Campo A.";
         mensagem.style.color = "red";
+        mensagem.style.marginTop = "8px";
     }
     });
