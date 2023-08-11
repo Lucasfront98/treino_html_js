@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+#container{
+    width: 100vw;
+    height: 900px;
+    background-color:#bfbdbd80;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#container input {
+            margin-top: 8px;
+            width: 280px;
+            height: 30px;
+            color: black;
+            border-radius: 8px;
+
+}
+#container button{
+    color: black;
+    background-color: green;
+    width: 60px;
+    height: 20px;
+    border-radius: 6px;
+    margin-top: 8px;
+
+}

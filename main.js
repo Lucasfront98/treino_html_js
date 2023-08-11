@@ -1,4 +1,4 @@
-document.getElementsById("container").addEventListener("submit", function(event) {
+document.getElementById("container").addEventListener("submit", function(event) {
     
     event.preventDefault();
 
@@ -7,11 +7,11 @@ document.getElementsById("container").addEventListener("submit", function(event)
     const campoBValue = parseFloat(document.getElementById("campoB").value);
 
     
-    const mensagem = document.getElementsById("mensagem");
+    const mensagem = document.getElementById("mensagem");
 
     
     if (campoBValue > campoAValue) {
-      // Se válido, exibir mensagem positiva
+      
         mensagem.textContent = "Formulário válido! Campo B é maior que Campo A.";
         mensagem.style.color = "black";
     } else {
